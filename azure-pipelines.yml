@@ -13,8 +13,8 @@ container: mcr.microsoft.com/dotnet/core/sdk:3.0
 
 steps:
 - task: DotNetCoreCLI@2
-  inputs: 
-    command: build
+  inputs:
+   command: build
 
 - task: DotNetCoreCLI@2
   inputs:
